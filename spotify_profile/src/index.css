@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "bold";
+  src: url("/fonts/GothamBold.ttf");
+}
+
+@font-face {
+  font-family: "medium";
+  src: url("/fonts/GothamMedium.ttf");
+}
+
+@font-face {
+  font-family: "light";
+  src: url("/fonts/GothamBook.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 18rem;
+  gap: 3rem;
+  background-color: rgb(24, 24, 24);
+}
+
+.page-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header h1 {
+  font-family: "bold";
+  color: rgb(255, 255, 255);
+}
+
+.months {
+  display: flex;
+  gap: 1rem;
+}
+
+.months span {
+  font-family: "medium";
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.app-container {
+  display: flex;
+}

@@ -1,0 +1,140 @@
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.profile-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-icon i {
+    padding: 1rem 1.5rem;
+    font-size: 6rem;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+}
+
+.profile-icon span {
+    font-size: 3rem;
+    font-family: "bold";
+    color: rgb(255, 255, 255);
+
+}
+
+.profile-details {
+    display: flex;
+    gap: 3rem;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail span:first-child {
+    color: rgb(29, 185, 84);
+    font-family: "medium";
+    font-size: 1.5rem;
+
+}
+
+.detail span:last-child {
+    color: rgb(155, 155, 155);
+    font-family: "light";
+}
+
+.page-btn-small {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0.7rem 1.75rem;
+    font-size: 14px;
+    border-radius: 5rem;
+    font-family: "medium";
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: #fff;
+        color: black;
+    }
+}
+
+.page-btn {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 1rem 2.5rem;
+    border-radius: 5rem;
+    font-family: "bold";
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: #fff;
+        color: black;
+    }
+}
+
+.spotify-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading span {
+    font-family: "bold";
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.artist-icon {
+    /* background-color: rgb(110, 59, 59); */
+    /* border: 2px solid rgb(255, 255, 255); */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.artist-icon img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.list span {
+    font-family: "medium";
+    color: rgb(255, 255, 255);
+
+}

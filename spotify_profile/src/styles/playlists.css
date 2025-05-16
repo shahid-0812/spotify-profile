@@ -1,0 +1,41 @@
+.playlists {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.playlisy-card {
+    flex: 1;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.playlist-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.playlist-info span:first-child {
+    color: rgb(255, 255, 255);
+    font-family: "medium";
+}
+
+.playlist-info span:last-child {
+    color: rgb(255, 255, 255);
+    font-family: "light";
+}
+
+.playlist-img {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+    background-color: grey;
+    height: 35rem;
+    object-fit: cover;
+}

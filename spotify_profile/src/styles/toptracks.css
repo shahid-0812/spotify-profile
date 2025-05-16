@@ -1,0 +1,50 @@
+.tracks {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+
+}
+
+.track-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.track-img {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+}
+
+.track-title {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.track-info span:first-child {
+    color: rgb(255, 255, 255);
+    font-family: "medium";
+}
+
+.track-info span:last-child {
+    color: rgb(255, 255, 255);
+    font-family: "light";
+}
+
+.track-card span:last-child {
+    color: rgb(255, 255, 255);
+    font-family: "light";
+}
