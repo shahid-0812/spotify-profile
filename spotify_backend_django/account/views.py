@@ -23,8 +23,8 @@ def register(request):
     user = User.objects.create_user(
         username=username,
         email=email,
+        password=password
     )
-    user.set_password(password)
     token, created = Token.objects.get_or_create(user=user)
     return Response({"success": "Registered successfully", "token": token.key},status=status.HTTP_201_CREATED)
 
